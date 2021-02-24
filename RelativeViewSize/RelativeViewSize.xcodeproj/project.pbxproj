@@ -35,6 +35,7 @@
 		47CC2DD825E6DE2A00E040AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47CC2DDB25E6DE2A00E040AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		47CC2DDD25E6DE2A00E040AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CC2DF925E6EA2100E040AB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		47CC2D4E25E6D9A800E040AB = {
 			isa = PBXGroup;
 			children = (
+				47CC2DF925E6EA2100E040AB /* README.md */,
 				47CC2DC225E6DD6A00E040AB /* Shared */,
 				47CC2D5925E6D9A800E040AB /* RelativeViewSize */,
 				47CC2DD325E6DE2800E040AB /* RelativeViewSizeiOS */,
