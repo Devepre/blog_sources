@@ -1,0 +1,22 @@
+import Foundation
+
+struct GroceryProduct: Codable {
+    var name: String
+    var points: Int
+    var description: String?
+}
+
+let json = """
+{
+    "name": "Durian",
+    // JSON5 comment
+    "points": +600,
+    "description": 'A fruit with a "distinctive" scent.' // pay attention to quotes here
+}
+""".data(using: .utf8)!
+
+let decoder = JSONDecoder()
+decoder.allowsJSON5 = true
+let product = try decoder.decode(GroceryProduct.self, from: json)
+
+print(product)
