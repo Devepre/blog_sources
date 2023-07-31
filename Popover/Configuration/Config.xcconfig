@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  Popover
+//
+//  Created by Serhii Kyrylenko on 01.08.2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+SAMPLE_CODE_DISAMBIGUATOR=${DEVELOPMENT_TEAM}
